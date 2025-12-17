@@ -1,4 +1,4 @@
-rootProject.name = "ImFine"
+rootProject.name = "Boon"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 includeBuild("../gradle-resources")

@@ -1,0 +1,31 @@
+# 26.03.12
+
+[versions]
+kmp-gradle = "0.1.0"
+
+
+[libraries]
+
+
+[bundles]
+
+
+[plugins]
+kmp-app-config = { id = "com.makeboon.kmp.gradle.app-config", version.ref = "kmp-gradle" }
+kmp-compose-application = { id = "com.makeboon.kmp.gradle.compose-application", version.ref = "kmp-gradle" }
+kmp-compose-library = { id = "com.makeboon.kmp.gradle.compose-library", version.ref = "kmp-gradle" }
+kmp-library = { id = "com.makeboon.kmp.gradle.library", version.ref = "kmp-gradle" }
+#
+kmp-framework = { id = "com.makeboon.kmp.gradle.framework", version.ref = "kmp-gradle" }
+kmp-compose = { id = "com.makeboon.kmp.gradle.compose", version.ref = "kmp-gradle" }
+kmp-compose-preview = { id = "com.makeboon.kmp.gradle.compose-preview", version.ref = "kmp-gradle" }
+kmp-compose-flattenDrawableResource = { id = "com.makeboon.kmp.gradle.compose-flatten-drawable-resource", version.ref = "kmp-gradle" }
+kmp-ksp = { id = "com.makeboon.kmp.gradle.ksp", version.ref = "kmp-gradle" }
+kmp-wire = { id = "com.makeboon.kmp.gradle.wire", version.ref = "kmp-gradle" }
+kmp-room3 = { id = "com.makeboon.kmp.gradle.room3", version.ref = "kmp-gradle" }
+kmp-android-application = { id = "com.makeboon.kmp.gradle.android-application", version.ref = "kmp-gradle" }
+kmp-android-library = { id = "com.makeboon.kmp.gradle.android-library", version.ref = "kmp-gradle" }
+kmp-firebase = { id = "com.makeboon.kmp.gradle.firebase", version.ref = "kmp-gradle" }
+kmp-ios-library = { id = "com.makeboon.kmp.gradle.ios-library", version.ref = "kmp-gradle" }
+kmp-publish = { id = "com.makeboon.kmp.gradle.publish", version.ref = "kmp-gradle" }
+

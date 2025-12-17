@@ -1,11 +1,11 @@
-# 25.11.22
+# 26.03.12
 
 [versions]
 molecule = "2.2.0" # https://github.com/cashapp/molecule
-coil = "3.3.0" # https://github.com/coil-kt/coil
-sketch = "4.4.0-alpha01" # https://github.com/panpf/sketch
-materialkolor = "4.0.5" # https://github.com/jordond/MaterialKolor
-haze = "1.7.1" # https://github.com/chrisbanes/haze
+coil = "3.4.0" # https://github.com/coil-kt/coil
+sketch = "4.4.0-beta02" # https://github.com/panpf/sketch
+materialkolor = "4.1.1" # https://github.com/jordond/MaterialKolor
+haze = "1.7.2" # https://github.com/chrisbanes/haze
 
 
 [libraries]

@@ -1,25 +1,28 @@
-# 25.11.22
+# 26.03.12
 
 [versions]
+# https://developer.android.com/build/releases/about-agp
 # https://developer.android.com/reference/tools/gradle-api
 # https://mvnrepository.com/artifact/com.android.tools.build/gradle
-gradlePlugin = "8.13.1"
-gradlePlugin-update = "9.0.0-beta02"
-tools = "31.13.1" # https://mvnrepository.com/artifact/com.android.tools/sdk-common
+gradlePlugin = "9.1.0"
+tools = "32.1.0" # https://mvnrepository.com/artifact/com.android.tools/sdk-common
 compileSdk = "36"
-compileSdkExt = "19" # Num or '-'
+compileSdkApi = "1"
+compileSdkExt = "-" # Num or '-'
 minSdk = "31" # https://apilevels.com/
 ### AndroidX
 # https://developer.android.com/google/play/billing/release-notes
-billing = "8.1.0"
+billing = "8.3.0"
 # https://github.com/androidx/androidx
 # https://developer.android.com/jetpack/androidx/versions
-core = "1.17.0" # https://developer.android.com/jetpack/androidx/releases/core
-activity = "1.12.0" # https://developer.android.com/jetpack/androidx/releases/activity
-media3 = "1.8.0" # https://developer.android.com/jetpack/androidx/releases/media3
+core = "1.18.0" # https://developer.android.com/jetpack/androidx/releases/core
+activity = "1.13.0" # https://developer.android.com/jetpack/androidx/releases/activity
+media3 = "1.10.0-rc01" # https://developer.android.com/jetpack/androidx/releases/media3
 ### Others
-firebase-bom = "34.6.0" # https://firebase.google.com/support/release-notes/android
-
+firebase-bom = "34.10.0" # https://firebase.google.com/support/release-notes/android
+gms-googleServices = "4.4.4" # https://developers.google.com/android/guides/google-services-plugin
+firebase-appDistribution = "5.2.1" # https://firebase.google.com/docs/app-distribution/android/distribute-gradle
+firebase-crashlytics = "3.0.6" # https://firebase.google.com/docs/crashlytics/android/get-started
 
 [libraries]
 gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "gradlePlugin" }
@@ -79,10 +82,7 @@ firebase-crashlytics = ["firebase-crashlytics", "firebase-crashlytics-ndk"]
 application = { id = "com.android.application", version.ref = "gradlePlugin" }
 library = { id = "com.android.kotlin.multiplatform.library", version.ref = "gradlePlugin" }
 ### Others
-# https://developers.google.com/android/guides/google-services-plugin
-gms-googleServices = { id = "com.google.gms.google-services", version = "4.4.4" }
-# https://firebase.google.com/docs/app-distribution/android/distribute-gradle
-firebase-appDistribution = { id = "com.google.firebase.appdistribution", version = "5.2.0" }
-# https://firebase.google.com/docs/crashlytics/get-started?platform=android
-firebase-crashlytics = { id = "com.google.firebase.crashlytics", version = "3.0.6" }
+gms-googleServices = { id = "com.google.gms.google-services", version.ref = "gms-googleServices" }
+firebase-appDistribution = { id = "com.google.firebase.appdistribution", version.ref = "firebase-appDistribution" }
+firebase-crashlytics = { id = "com.google.firebase.crashlytics", version.ref = "firebase-crashlytics" }
 

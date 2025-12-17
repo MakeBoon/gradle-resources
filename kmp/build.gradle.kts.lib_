@@ -1,8 +1,8 @@
-import pro.crestfi.gradle.bom
+import com.makeboon.gradle.bom
 
 plugins {
     alias(core.plugins.convention.publish)
-    alias(crestfi.plugins.kmp.compose.library)
+    alias(makeboon.plugins.kmp.compose.library)
 }
 
 kotlin {

@@ -1,9 +1,9 @@
-# 25.11.22
+# 26.03.12
 
 [versions]
 crashkios = "0.9.0" # https://github.com/touchlab/CrashKiOS
-kermit = "2.0.5" # https://github.com/touchlab/Kermit
-nsexceptionkt = "1.0.5" # https://github.com/rickclephas/NSExceptionKt
+kermit = "2.1.0" # https://github.com/touchlab/Kermit
+nsexceptionkt = "1.0.7" # https://github.com/rickclephas/NSExceptionKt
 
 
 [libraries]

@@ -1,10 +1,10 @@
-# 25.11.22
+# 26.03.12
 
 [versions]
 ### KMP
-crestfi-kmp-shared = "0.1.0" # https://github.com/ib-fi/kmp-shared
+makeboon-kmp-shared = "0.1.0" # https://github.com/MakeBoon/kmp-shared
 ### Android
-amplitude-android = "1.22.4" # https://github.com/amplitude/Amplitude-Kotlin
+amplitude-android = "1.26.1" # https://github.com/amplitude/Amplitude-Kotlin
 facebook-android = "18.1.3" # https://github.com/facebook/facebook-android-sdk
 appsFlyer-android = "6.17.5" # https://github.com/AppsFlyerSDK/appsflyer-android-sdk
 ### iOS
@@ -16,8 +16,8 @@ appsFlyer-android = "6.17.5" # https://github.com/AppsFlyerSDK/appsflyer-android
 
 [libraries]
 ### KMP
-crestfi-kmp-shared = { group = "pro.crestfi.kmp", name = "shared", version.ref = "crestfi-kmp-shared" }
-crestfi-kmp-compose = { group = "pro.crestfi.kmp", name = "compose", version.ref = "crestfi-kmp-shared" }
+makeboon-kmp-shared = { group = "com.makeboon.kmp", name = "shared", version.ref = "makeboon-kmp-shared" }
+makeboon-kmp-compose = { group = "com.makeboon.kmp", name = "compose", version.ref = "makeboon-kmp-shared" }
 ### Android
 amplitude-android = { group = "com.amplitude", name = "analytics-android", version.ref = "amplitude-android" }
 facebook-android = { group = "com.facebook.android", name = "facebook-core", version.ref = "facebook-android" }
