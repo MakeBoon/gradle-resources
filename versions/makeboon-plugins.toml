@@ -13,6 +13,8 @@ kmp-gradle = "0.1.0"
 [plugins]
 kmp-app-config = { id = "com.makeboon.kmp.gradle.app-config", version.ref = "kmp-gradle" }
 kmp-compose-application = { id = "com.makeboon.kmp.gradle.compose-application", version.ref = "kmp-gradle" }
+kmp-application-compose-library = { id = "com.makeboon.kmp.gradle.application-compose-library", version.ref = "kmp-gradle" }
+kmp-application-library = { id = "com.makeboon.kmp.gradle.application-library", version.ref = "kmp-gradle" }
 kmp-compose-library = { id = "com.makeboon.kmp.gradle.compose-library", version.ref = "kmp-gradle" }
 kmp-library = { id = "com.makeboon.kmp.gradle.library", version.ref = "kmp-gradle" }
 #
